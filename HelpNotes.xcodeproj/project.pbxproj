@@ -14,6 +14,9 @@
 		B60D833123924AE8006E836B /* HelpNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B60D832F23924AE8006E836B /* HelpNotes.xcdatamodeld */; };
 		B60D833323924AEB006E836B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60D833223924AEB006E836B /* Assets.xcassets */; };
 		B60D833623924AEB006E836B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60D833423924AEB006E836B /* LaunchScreen.storyboard */; };
+		B6C71DD323928DD600401D3D /* TypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C71DD123928DD600401D3D /* TypeCell.swift */; };
+		B6C71DD423928DD600401D3D /* TypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C71DD223928DD600401D3D /* TypeCell.xib */; };
+		B6C71DD62393545900401D3D /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C71DD52393545900401D3D /* NotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		B60D833223924AEB006E836B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B60D833523924AEB006E836B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60D833723924AEB006E836B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C71DD123928DD600401D3D /* TypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCell.swift; sourceTree = "<group>"; };
+		B6C71DD223928DD600401D3D /* TypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeCell.xib; sourceTree = "<group>"; };
+		B6C71DD52393545900401D3D /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,13 @@
 		B60D832523924AE8006E836B /* HelpNotes */ = {
 			isa = PBXGroup;
 			children = (
+				B6C71DD123928DD600401D3D /* TypeCell.swift */,
+				B6C71DD223928DD600401D3D /* TypeCell.xib */,
 				B60D832623924AE8006E836B /* AppDelegate.swift */,
 				B60D832823924AE8006E836B /* SceneDelegate.swift */,
 				B60D832A23924AE8006E836B /* ViewController.swift */,
 				B60D832C23924AE8006E836B /* Main.storyboard */,
+				B6C71DD52393545900401D3D /* NotesViewController.swift */,
 				B60D833223924AEB006E836B /* Assets.xcassets */,
 				B60D833423924AEB006E836B /* LaunchScreen.storyboard */,
 				B60D833723924AEB006E836B /* Info.plist */,
@@ -131,6 +140,7 @@
 				B60D833623924AEB006E836B /* LaunchScreen.storyboard in Resources */,
 				B60D833323924AEB006E836B /* Assets.xcassets in Resources */,
 				B60D832E23924AE8006E836B /* Main.storyboard in Resources */,
+				B6C71DD423928DD600401D3D /* TypeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60D833123924AE8006E836B /* HelpNotes.xcdatamodeld in Sources */,
+				B6C71DD323928DD600401D3D /* TypeCell.swift in Sources */,
+				B6C71DD62393545900401D3D /* NotesViewController.swift in Sources */,
 				B60D832B23924AE8006E836B /* ViewController.swift in Sources */,
 				B60D832723924AE8006E836B /* AppDelegate.swift in Sources */,
 				B60D832923924AE8006E836B /* SceneDelegate.swift in Sources */,
